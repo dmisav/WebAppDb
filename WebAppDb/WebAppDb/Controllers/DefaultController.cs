@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
+using WebAppDb.BAL;
 
 namespace WebAppDb.Controllers
 {
@@ -11,6 +8,8 @@ namespace WebAppDb.Controllers
         // GET: Default
         public ActionResult Index()
         {
+            var addressService = new AddressService();
+                addressService.GetAddress();
             return View();
         }
     }

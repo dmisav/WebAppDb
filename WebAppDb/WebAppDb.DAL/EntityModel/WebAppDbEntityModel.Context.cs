@@ -13,10 +13,10 @@ namespace WebAppDb.DAL.EntityModel
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class WebAppDbEntities : DbContext
+    public partial class WebAppDbEntitiesContext : DbContext
     {
-        public WebAppDbEntities()
-            : base("name=WebAppDbEntities")
+        public WebAppDbEntitiesContext()
+            : base("name=WebAppDbEntitiesContext")
         {
         }
     
