@@ -55,6 +55,7 @@
       <DependentUpon>WebAppDbEntityModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Class1.cs" />
+    <Compile Include="IDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="EntityModel\WebAppDbEntityModel.Context.cs">
       <AutoGen>True</AutoGen>
